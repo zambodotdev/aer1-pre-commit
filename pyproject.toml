@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aer1-pre-commit"
+version = "1.0.0"
+description = "pre-commit hook wrapper for aer1-scan: checks every Zambo receipt link in the files being committed."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Brennan Zambo" }
+]
+dependencies = ["aer1-scan"]
+
+[tool.setuptools]
+py-modules = ["aer1_pre_commit"]
