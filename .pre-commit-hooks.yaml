@@ -1,0 +1,6 @@
+- id: aer1-scan
+  name: aer1-scan
+  entry: aer1-scan
+  language: python
+  additional_dependencies: [aer1-scan]
+  types: [text]
